@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+</head>
+<body>
+    <h2>while문 연습</h2>
+    <script>
+        var num = Number(prompt("2 이상의 숫자를 입력해주세요."));
+        var i = 2;
+        while(num % i != 0) {
+            i++;
+            }
+        if(i === num){
+            document.write(num + "은(는) 소수입니다.");
+        } else {
+            document.write(num + "은(는) 소수가 아닙니다.");
+        }
+    </script>
+</body> 
+</html>
